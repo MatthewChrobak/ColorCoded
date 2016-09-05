@@ -1,0 +1,28 @@
+pre.csharp {
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+pre.csharp > p.code {
+	background-color:white;
+	font-family:"Consolas";
+	font-size:14px;
+	padding:10px;
+}
+
+pre.csharp > p.code > span.object {
+	color:teal;
+}
+
+pre.csharp > p.code > span.keyword {
+	color:blue;
+}
+
+pre.csharp > p.code > span.comment {
+	color:green;
+}
+
+pre.csharp > p.code > span.string {
+	color:darkred;
+}
